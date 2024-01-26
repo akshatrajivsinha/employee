@@ -1,0 +1,36 @@
+.lists{
+    display: flex;
+    background-image: url("https://img.freepik.com/free-photo/top-view-office-stationery-with-pen-notebook_23-2148524768.jpg?w=1380&t=st=1693303727~exp=1693304327~hmac=4029236309bfe655879150fe0af873543322e9dce426e2890356b0173a0df0b5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    height: max-content;
+    gap: 30px;
+
+
+    .topcontent{
+        display: flex;
+        margin: 10px 60px 0px 10px;
+        flex-direction: column;
+        gap: 30px;
+
+        .h1{
+            font-size: medium;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .input{
+                display: flex;
+                margin: 5px;
+                gap: 10px;
+                .lable{
+                    font-size: medium;
+                }
+            }
+        }
+        
+    }
+}
